@@ -1,7 +1,6 @@
 package models;
 import java.util.ArrayList;
 
-import interfaces.Conta;
 
 public class ContaCorrente implements Conta{
     private double saldo;
