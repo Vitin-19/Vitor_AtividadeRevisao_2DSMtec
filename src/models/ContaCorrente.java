@@ -17,7 +17,7 @@ public class ContaCorrente implements Conta{
     @Override
     public void sacar(double valor){
         this.saldo -= valor + taxaOp;
-        String transacao = "Depósito: +R$" + valor;
+        String transacao = "Saque: -R$" + valor;
         transacoes.add(transacao);
     }
 

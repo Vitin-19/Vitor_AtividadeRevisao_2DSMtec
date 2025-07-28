@@ -16,7 +16,7 @@ public class ContaPoupanca implements Conta {
     @Override
     public void sacar(double valor){
         this.saldo -= valor;
-        String transacao = "Depósito: +R$" + valor;
+        String transacao = "Saque: -R$" + valor;
         transacoes.add(transacao);
     }
 
