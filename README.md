@@ -1,1 +1,1 @@
-# Vitor_AtividadeRevisao_2DSMtec.
+# Vitor_AtividadeRevisao_2DSMtec
